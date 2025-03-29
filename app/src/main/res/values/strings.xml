@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">IT_Webshop</string>
+    <string name="welcomeMessage">Üdvözöljük az IT Webshop-ban</string>
+    <string name="instructions">A Vásárláshoz be kell jelentekznie, de nézelődhet anélkül is</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="registerInstruction">Nincs még fiókod? Regisztrálj itt</string>
+    <string name="checkWares">Áruk megnézése</string>
+    <string name="emailHint">Email cím</string>
+    <string name="passwordHint">Jelszó</string>
+    <string name="loginButtonText">Bejelentkezés</string>
+    <string name="cancelButtonText">Mégse</string>
+    <string name="usernameHint">Felhasználónév</string>
+    <string name="passwordAgainHint">Jelszó ismét</string>
+    <string name="registerButtonText">Regisztráció</string>
 </resources>
