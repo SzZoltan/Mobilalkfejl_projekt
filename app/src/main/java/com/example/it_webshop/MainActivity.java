@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final String LOG_TAG = MainActivity.class.getName();
-    private static final int SECRET_KEY = 5;
 
 
 
@@ -24,13 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void login(View view) {
         Intent intent = new Intent(this, LoginActivity.class);
-        intent.putExtra("SECRET_KEY", SECRET_KEY);
         startActivity(intent);
     }
 
     public void register(View view) {
         Intent intent = new Intent(this, RegisterActivity.class);
-        intent.putExtra("SECRET_KEY", SECRET_KEY);
         startActivity(intent);
     }
 
