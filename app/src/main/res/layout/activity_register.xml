@@ -10,7 +10,7 @@
         android:id="@+id/usernameRegisterEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:autofillHints="username"
@@ -24,7 +24,7 @@
         android:id="@+id/emailRegisterEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:autofillHints="emailAddress"
@@ -39,7 +39,7 @@
         android:id="@+id/passwordRegisterEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:autofillHints="password"
@@ -54,7 +54,7 @@
         android:id="@+id/passwordAgainRegisterEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:autofillHints="password"
@@ -65,13 +65,39 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@id/passwordRegisterEditText"/>
 
+    <RadioGroup
+        android:id="@+id/accountTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/passwordAgainRegisterEditText">
+
+        <RadioButton
+            android:id="@+id/buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/buyer"/>
+
+        <RadioButton
+            android:id="@+id/seller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/seller"/>
+    </RadioGroup>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordAgainRegisterEditText"
+        android:layout_below="@+id/accountTypeGroup"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">

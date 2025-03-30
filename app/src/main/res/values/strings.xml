@@ -13,4 +13,6 @@
     <string name="usernameHint">Felhasználónév</string>
     <string name="passwordAgainHint">Jelszó ismét</string>
     <string name="registerButtonText">Regisztráció</string>
+    <string name="buyer">Vásárló</string>
+    <string name="seller">Eladó</string>
 </resources>
