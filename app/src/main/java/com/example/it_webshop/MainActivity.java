@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void shopping(View view) {
-        //TODO shopping Activity
+        Intent intent = new Intent(this, ShoppingActivity.class);
+        startActivity(intent);
     }
 
     @Override

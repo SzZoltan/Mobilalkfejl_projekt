@@ -1,5 +1,6 @@
 package com.example.it_webshop;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,10 +37,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        //TODO Átirányítás a ShopActivity-re amikor majd létezik
-
         String loginEmail = loginEmailET.getText().toString();
         String loginPassword = loginPasswordET.getText().toString();
+        Intent intent = new Intent(this, ShoppingActivity.class);
 
         mAuth.signInWithEmailAndPassword(loginEmail,loginPassword).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
@@ -47,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (task.isSuccessful()){
                     Log.d(LOG_TAG, "Sikeres Regisztráció");
                     Toast.makeText(LoginActivity.this, "Sikeres bejelentkezés", Toast.LENGTH_SHORT).show();
+                    startActivity(intent);
                 }else{
                     Toast.makeText(LoginActivity.this, "Hibás felhasználónév vagy jelszó!", Toast.LENGTH_LONG).show();
                 }
