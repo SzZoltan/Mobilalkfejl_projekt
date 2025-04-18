@@ -15,4 +15,52 @@
     <string name="registerButtonText">Regisztráció</string>
     <string name="buyer">Vásárló</string>
     <string name="seller">Eladó</string>
+    <string name="item_desc_placeholder">desc_placeholder</string>
+    <string name="to_cart">Kosárba</string>
+    <string name="item_info_placeholder">item_info_placeholder</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="settings">Beállítás</string>
+    <string name="cart">Kosár</string>
+    <string name="search">Keresés</string>
+    <string name="delete">Törlés</string>
+
+    <string-array name="shopping_item_names">
+        <item>Office Mouse</item>
+        <item>Gaming Mouse</item>
+        <item>Gaming Keyboard</item>
+        <item>Gaming Headset</item>
+        <item>SSD</item>
+        <item>RAM</item>
+        <item>Monitor</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Vezeték nélküli irodai egér!</item>
+        <item>Vezetékes Gaming egér!</item>
+        <item>RGB Gaming Billentyűzet!</item>
+        <item>Vezeték nélküli Gaming headset!</item>
+        <item>2 TB SATA SSD!</item>
+        <item>RGB DDR4 32GB 4000MHz RAM!</item>
+        <item>24,5" FHD 1920 x 1080 IPS képernyő Monitor!</item>
+    </string-array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/office_mouse</item>
+        <item>@drawable/gaming_mouse</item>
+        <item>@drawable/gaming_keyboard</item>
+        <item>@drawable/gaming_headset</item>
+        <item>@drawable/ssd</item>
+        <item>@drawable/ram</item>
+        <item>@drawable/monitor</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>20 Dv</item>
+        <item>45 Dv</item>
+        <item>40 Dv</item>
+        <item>55 Dv</item>
+        <item>190 Dv</item>
+        <item>135 Dv</item>
+        <item>250 Dv</item>
+    </array>
 </resources>
